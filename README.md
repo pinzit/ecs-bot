@@ -1,10 +1,12 @@
 ```
-                                  ___.              __   
-      ____    ____    ______      \_ |__    ____  _/  |_ 
-    _/ __ \ _/ ___\  /  ___/       | __ \  /  _ \ \   __\
-    \  ___/ \  \___  \___ \        | \_\ \(  <_> ) |  |  
-     \___  > \___  >/____  >       |___  / \____/  |__|  
-         \/      \/      \/            \/
+ /$$$$$$$$  /$$$$$$   /$$$$$$                    /$$$$$$$   /$$$$$$  /$$$$$$$$
+| $$_____/ /$$__  $$ /$$__  $$                  | $$__  $$ /$$__  $$|__  $$__/
+| $$      | $$  \__/| $$  \__/                  | $$  \ $$| $$  \ $$   | $$
+| $$$$$   | $$      |  $$$$$$                   | $$$$$$$ | $$  | $$   | $$
+| $$__/   | $$       \____  $$                  | $$__  $$| $$  | $$   | $$
+| $$      | $$    $$ /$$  \ $$                  | $$  \ $$| $$  | $$   | $$
+| $$$$$$$$|  $$$$$$/|  $$$$$$/                  | $$$$$$$/|  $$$$$$/   | $$
+|________/ \______/  \______/                   |_______/  \______/    |__/
 ```
 <h2 align="center">This program is designed to continuously join and leave an ECS:R game of your choice every 10 minutes, which gives you 60 tix.</h2>
 
@@ -13,6 +15,7 @@ To run this you need your <code>.ROBLOSECURITY</code> (ECS, not Roblox) and you 
 There shouldn't be bugs, but if you find one feel free to <b>FIX IT YOURSELF</b> and make a pull request.
 # Requirements
 - A brain
+- Pip
 - https://docs.python.org/library/time.html
 - https://docs.python.org/library/webbrowser.html
 - https://pypi.org/project/requests/
