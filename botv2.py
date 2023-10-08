@@ -12,6 +12,10 @@ import webbrowser
 import requests
 import re
 
+import os
+import dotenv
+dotenv.load_dotenv()
+
 def get_join_script_url(place_id, cookie):
   url = "https://ecsr.io/game/get-join-script?placeId=" + str(place_id)
   response = requests.get(url, cookies=cookie)
@@ -45,8 +49,8 @@ def main():
   print("by theodore")
   print("------------------------------------------------------------------------------")
 
-  place_id = YOUR_PLACE_ID
-  cookie = {".ROBLOSECURITY": "YOUR_COOKIE"}
+  place_id = os.getenv("PLACE_ID")
+  cookie = {".ROBLOSECURITY": os.getenv("COOKIE")}
 
   join_script_url = get_join_script_url(place_id, cookie)
   join_script_ticket = get_join_script_ticket(join_script_url)
