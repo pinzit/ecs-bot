@@ -19,7 +19,9 @@ There shouldn't be bugs, but if you find one feel free to <b>FIX IT YOURSELF</b>
 - https://docs.python.org/library/time.html
 - https://docs.python.org/library/webbrowser.html
 - https://pypi.org/project/requests/
+- https://docs.python.org/library/os.html
 - https://docs.python.org/library/re.html
+- https://pypi.org/project/python-dotenv/
 - ECS:R Client (Works on Virtual Machines too)
 
 I'm not the best at python, so sorry if the code is messy. you can always 😉😉😉😉😉😉😉😉 make a pull request 😉😉😉😉😉😉😉😉
