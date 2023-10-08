@@ -13,6 +13,7 @@ To run this you need your <code>.ROBLOSECURITY</code> (ECS, not Roblox) and you 
 There shouldn't be bugs, but if you find one feel free to <b>FIX IT YOURSELF</b> and make a pull request.
 # Requirements
 - A brain
+- Pip
 - https://docs.python.org/library/time.html
 - https://docs.python.org/library/webbrowser.html
 - https://pypi.org/project/requests/
