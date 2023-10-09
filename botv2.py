@@ -67,7 +67,7 @@ def main():
   print()
 
   while True:
-    time.sleep(603)
+    time.sleep(363)
 
     join_script_url = get_join_script_url(place_id, cookie)
     join_script_ticket = get_join_script_ticket(join_script_url)
@@ -75,7 +75,7 @@ def main():
     url = "ecsr-player://1+launchmode:play+gameinfo:{ticket}+placelauncherurl:{url}+k:l".format(url=join_script_url, ticket=join_script_ticket)
 
     launch_app(url)
-    print("10 minutes are up, new game")
+    print("6 minutes are up, new game")
     print()
 
 if __name__ == "__main__":
